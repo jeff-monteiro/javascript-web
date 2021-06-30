@@ -1,12 +1,15 @@
-function indicadorIdade(nomePessoa, anoDeNascimento) {
+function verificarIdade(nomePessoa, anoDeNascimento) {
   
-  nomePessoa = 'Jefferson'
-  anoDeNascimento = 1995
-  var idade = 30
+  
+  var idade = 2018 - anoDeNascimento
 
-  if(idade > 18){
-    return 2021 - anoDeNascimento
+  if(idade >= 18){
+    return nomePessoa + " é maior de idade."
+  }else{
+    return nomePessoa + " tem menos de 18 anos."
   }
-  console.log(indicadorIdade())
-  
+   
 }
+var nome = 'Joelma'
+var nascimento = 2002
+console.log(verificarIdade(nome, nascimento))
