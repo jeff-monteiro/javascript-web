@@ -6,10 +6,9 @@ function verificarMaiorIdade(nomePessoa, idadePessoa){
   } 
 }
 
-function verificarIdade(nomePessoa, anoDeNascimento){
+function verificarIdade(nomePessoa, anoDeNascimento){//Utilizando uma função pra chamar outra função
   var idade = 2021 - anoDeNascimento
   var mensagemRetorno = verificarMaiorIdade(nomePessoa, idade)
-  console.log(mensagemRetorno)
 }
 var nome = 'Jefferson'
 var nascimento = 1995
