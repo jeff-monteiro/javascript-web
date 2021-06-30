@@ -14,5 +14,11 @@ function verificarIdade(nomePessoa, anoDeNascimento){
 var nome = 'Jefferson'
 var nascimento = 1995
 verificarIdade(nome, nascimento)
+
+verificarIdade("Cassiano", 1975)
+
+nome = "John"
+nascimento = 1978
+verificarIdade(nome, nascimento)
   
 
