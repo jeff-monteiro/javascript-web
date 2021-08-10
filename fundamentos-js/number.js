@@ -18,6 +18,8 @@ if(media > 7){
 
 console.log(media.toFixed(2))
 console.log(media.toString())
+console.log(typeof media)//Informa o tipo de dado armazenado na variável
+console.log(typeof Number)
 
 
 
