@@ -12,6 +12,6 @@ console.log('Escola ' + escola + '!')
 //console.log('Escola '.concat(escola).concat('!'))
 console.log(escola.replace(3, 'e'))//Função que substitue um caractere por outro.
 
-//Função separa a string tornando uma cadeia de caractere em Array(ou Coleção)
+//Função quebra a string tornando uma cadeia de caractere em Array(ou Coleção)
 console.log('Maria, Pedro, Jefferson, João, Karoliny'.split(','))
 
