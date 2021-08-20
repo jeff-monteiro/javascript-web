@@ -1,5 +1,3 @@
-console.log(7 / 0)
-console.log('Olá mundo!')
 function somar(numero1, numero2){
   return numero1 + numero2;
 }
