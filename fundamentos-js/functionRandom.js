@@ -2,5 +2,6 @@ const frutas = ['Abacaxi', 'Abacate', 'Manga', 'Maça', 'Pera', 'Pitomba', 'Tama
 function sortearFruta(){
   const indice = Math.floor(Math.random() * frutas.length)
   const frutaSorteada = frutas[indice]
+  console.log(`Minha fruta sorteada foi: ${ frutaSorteada }!`)
 }
- console.log(sortearFruta())
+ return(sortearFruta())
