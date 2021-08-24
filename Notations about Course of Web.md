@@ -30,4 +30,9 @@ Obs: Javascript é uma linguagem de tipagem dinâmica ou seja é uma linguagem d
 Arrays em Javascript é algo heterogêneo, o que permite que adicione dentro dele vários tipos de dados. Porém isso não
 é uma boa prática. O ideal é que em trabalhando com Arrays você utilize dados da forma mais homogênea possível.
 
+JSON == JavaScript Object Notation 
+Um Objeto em Javascript não é a mesma coisa que um Objeto em JSON, JSON é um formato textual. Um objeto em JS é uma coleção
+de chave/valor, ou seja, você o nome do atributo e então você passa o valor pra ele.
+
+OBS: Um par de chaves {} representa um objeto em Javascript.
                              
