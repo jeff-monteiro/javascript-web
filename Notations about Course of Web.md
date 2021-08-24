@@ -27,4 +27,7 @@ Ex: Atribuição, Aritméticas, Relacionais e Lógicas.
 
 Obs: Javascript é uma linguagem de tipagem dinâmica ou seja é uma linguagem de tipagem fraca.
 
+Arrays em Javascript é algo heterogêneo, o que permite que adicione dentro dele vários tipos de dados. Porém isso não
+é uma boa prática. O ideal é que em trabalhando com Arrays você utilize dados da forma mais homogênea possível.
+
                              
