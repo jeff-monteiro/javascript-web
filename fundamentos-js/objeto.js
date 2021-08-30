@@ -11,3 +11,5 @@ const prod2 = {
   preco: 29.90
 }
 console.log(prod2)
+console.log(typeof prod1)
+console.log(typeof prod2)
