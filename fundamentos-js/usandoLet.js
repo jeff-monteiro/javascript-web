@@ -1,6 +1,3 @@
-let numero = 18
-{
-  let numero = 10
-  console.log('Dentro do Bloco = ', numero)
-}
-console.log('Fora do Bloco = ', numero)
+const venda = 200.00
+const perc = venda + (200 * 0.3)
+console.log(perc)
