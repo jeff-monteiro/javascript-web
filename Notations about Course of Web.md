@@ -32,12 +32,12 @@ Arrays em Javascript é algo heterogêneo, o que permite que adicione dentro del
 
 JSON == JavaScript Object Notation 
 Um Objeto em Javascript não é a mesma coisa que um Objeto em JSON, JSON é um formato textual. Um objeto em JS é uma coleção
-de chave/valor, ou seja, você o nome do atributo e então você passa o valor pra ele.
+de chave/valor, ou seja, você dá o nome do atributo e então você passa o valor pra ele.
 
 OBS: Um par de chaves {} representa um objeto em Javascript.
 
                     Variáveis Com VAR #01
 Se você criar uma variável *fora* de uma função ela é determinada como global, ou seja, ela estará visível em toda a sua aplicação,
-caso vocẽ declare uma variável *dentro* de uma função ela é determinada como local e está limitada a ser identificada somente dentro do
+caso você declare uma variável *dentro* de uma função ela é determinada como local e está limitada a ser identificada somente dentro do
 escopo em que foi declarada na função.
                              
