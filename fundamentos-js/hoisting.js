@@ -5,6 +5,6 @@ teste = () => {//Hoisting acontece quando utilizamos a palavra VAR
 }
 teste()
 
-console.log('b = ', b)
-let b = 4
-console.log('b = ', b)
+// console.log('b = ', b)
+// let b = 4
+// console.log('b = ', b)
