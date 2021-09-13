@@ -15,3 +15,6 @@ console.log(n, i)
 
 const { sobrenome, bemHumorada = true} = pessoa //Caso queira remover de dentro de um objeto que nunca existiu
 console.log(sobrenome, bemHumorada)
+
+const { endereco: { logradouro, numero, cep} } = pessoa //Acessando atributos aninhados
+console.log(logradouro, numero, cep)
