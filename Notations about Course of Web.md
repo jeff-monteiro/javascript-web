@@ -40,4 +40,7 @@ OBS: Um par de chaves {} representa um objeto em Javascript.
 Se você criar uma variável *fora* de uma função ela é determinada como global, ou seja, ela estará visível em toda a sua aplicação,
 caso você declare uma variável *dentro* de uma função ela é determinada como local e está limitada a ser identificada somente dentro do
 escopo em que foi declarada na função.
+
+                      Entendendo *Hoisting*
+Hoisting é um comportamento padrão de Javascript de mover declarações para o topo.
                              
