@@ -2,7 +2,7 @@
                               
               Entrada de Dados -> Processamento -> Saída
  
- Existem algoritimos que possuem entrada, processamento e saída, e algoritimos que não possuem entrada, porém possuem saída. Há também algoritimos que possuem entrada mas não possuem nenhuma saída, assim como existem algoritimos que não possuem entrada e nem saída.
+ Existem algoritmos que possuem entrada, processamento e saída, e algoritmos que não possuem entrada, porém possuem saída. Há também algoritmos que possuem entrada mas não possuem nenhuma saída, assim como existem algoritmos que não possuem entrada e nem saída.
  
                         Estruturas de Dados
                         
