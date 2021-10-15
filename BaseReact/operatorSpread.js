@@ -2,6 +2,8 @@ const livros1 = ['CSS3', 'Javascript', 'PHP']
 const livros2 = ['HTML', 'React']
 const precos = [70, 30, 90, 100, 10]
 
-let livros = [...livros1, ...livros2, ...precos]//Utilizando operador SPREAD
+let livros = [...livros1, ...livros2]//Utilizando operador SPREAD
+let precoMaximo1 = Math.max(...precos)
 
 console.log(livros)
+console.log(precoMaximo1)
