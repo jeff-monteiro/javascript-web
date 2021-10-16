@@ -43,4 +43,7 @@ escopo em que foi declarada na função.
 
                       Entendendo *Hoisting*
 Hoisting é um comportamento padrão de Javascript de mover declarações para o topo.
+
+                      ##Destructuring Operator
+O operador destructuring é utilizado para extrair os dados de dentro dos elementos(objetos{} e arrays[]), podendo atribuí-los a novas variáveis.
                              
