@@ -5,3 +5,5 @@ rand = ({min = 0, max = 1000}) => {
 }
 
 console.log(rand([50, 20]))
+console.log(rand([992]))
+console.log(rand([]))
