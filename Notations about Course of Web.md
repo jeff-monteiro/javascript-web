@@ -46,4 +46,8 @@ Hoisting é um comportamento padrão de Javascript de mover declarações para o
 
                       ##Destructuring Operator
 O operador destructuring é utilizado para extrair os dados de dentro dos elementos(objetos{} e arrays[]), podendo atribuí-los a novas variáveis.
+
+                    ##Método MAP
+O método Map fa o mapeamento de dados dentro de estruturas tais como Arrays e Objetos, podendo a partir de um determinado dado guardado
+dentro dessas estruturas criar outros Arrays ou Objetos.
                              
