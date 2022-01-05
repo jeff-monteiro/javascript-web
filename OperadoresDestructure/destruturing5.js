@@ -7,3 +7,4 @@ const livros = [
 let [livro1, livro2, livro3] = livros
 console.log(livro1.name)
 console.log(livro3.autor)
+console.log(livro2.editora)// atribuindo valor a atributo não existente
