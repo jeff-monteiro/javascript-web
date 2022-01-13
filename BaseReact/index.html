@@ -1,0 +1,48 @@
+<!-- <link rel="stylesheet" href="./styles.css"> -->
+<!--
+  This part is the principal Main HTML
+-->
+<main class="tela">
+  <!--<button class="botaoDeLike">
+    <span class="owner">Jeff Dev</span>
+  </button>
+  <button class="botaoDeLike">
+    <span class="owner">Kany Dev</span>
+  </button>
+  <button class="botaoDeLike">
+    <span class="owner">Tester</span>
+  </button> -->
+</main>
+<!--
+  This part is the principal Main JavaScript
+-->
+<script>
+  // [Dados]
+  const channels = [
+    'Jeff Dev',
+    'Kany Dev',
+    'Tester',
+  ]
+
+  //===================================================
+  // [Lógica de Renderização]
+  const buttonTemplate = ()=> {
+    return
+      `<button class="botaoDeLike">
+        <span class="owner">Tester</span>
+        <span class="contador"></span>
+      </button>`
+  }
+    
+
+  render = () => {
+    console.log('[render]')
+    const $tela = document.querySelector('.tela')
+
+    $tela.innerHTML = channels.map((channel) => {
+      return buttonTemplate(channel)
+      //return `<button>${channel}</button>`
+    }).join('')
+  }
+  render()
+</script>
