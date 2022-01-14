@@ -26,7 +26,7 @@
 
   //===================================================
   // [Lógica de Renderização]
-  const buttonTemplate = ()=> {
+  const buttonTemplate = () => {
     return
       `<button class="botaoDeLike">
         <span class="owner">Tester</span>
@@ -42,7 +42,7 @@
     $tela.innerHTML = channels.map((channel) => {
       return buttonTemplate(channel)
       //return `<button>${channel}</button>`
-    }).join('')
+    }).join(' | ')
   }
   render()
 </script>
