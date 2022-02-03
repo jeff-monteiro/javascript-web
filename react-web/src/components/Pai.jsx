@@ -7,5 +7,7 @@ export default props =>
     <h2>Filhos</h2>
     <ul>
       <Filho nome = 'Pedro' sobrenome = {props.sobrenome} />
+      <Filho {...props} />
+      <Filho {...props} nome = 'Luiza' />
     </ul>
   </div>
