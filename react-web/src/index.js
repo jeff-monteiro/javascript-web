@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Pai from './components/Pai.jsx'
+import BomDia from './components/BomDia.jsx';
 
 ReactDOM.render(
   <>
-    <Pai nome = "Estevão" sobrenome = "Monteiro" />
+    <BomDia nome = 'Jefferson' sobrenome='Monteiro' idade = '27' />
   </>
   , document.getElementById('root'));
